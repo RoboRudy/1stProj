@@ -1,5 +1,9 @@
 # 1stProj
 
+git config --global user.email "rudyardarias@gmail.com"
+  git config --global user.name "Rudy"
+
+
 Redo Free Code Camp Curriculum and apply learned concepts onto site
 
 Portfolio site roughdraft #1
@@ -10,11 +14,11 @@ Should be 5 pages
    a.Who I am
    b. What I hope to accomplish
     c. things I do on my spare time
-         d. Break down of website
+      ca. Projects currently being worked on
 
 2. Goals
    a.Front-End Web DEV
-    b. Mobile Web Dev
+    b. Mobile App Dev
       c. Full Stack Web Dev
 
 
