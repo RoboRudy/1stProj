@@ -10,11 +10,13 @@ Portfolio site roughdraft #1
 
 Should be 5 pages
 
-1. About me
+1. Main(about me)
+   MIssion and VIsion
    a.Who I am
    b. What I hope to accomplish
     c. things I do on my spare time
       ca. Projects currently being worked on
+
 
 2. Goals
    a.Front-End Web DEV
