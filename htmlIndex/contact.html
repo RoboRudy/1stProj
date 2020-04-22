@@ -7,21 +7,34 @@
   </head>
   <header>
     <a href="C:\Users\rudya\github\1stProj\htmlIndex\mainPage.html">HOME</a>
-    <a href="C:\Users\rudya\github\1stProj\htmlIndex\Goals.html" Goals</a>
+    <a href="C:\Users\rudya\github\1stProj\htmlIndex\Goals.html"> Goals</a>
     <a href="C:\Users\rudya\github\1stProj\htmlIndex\projects.html"> Projects</a>
     <a href="C:\Users\rudya\github\1stProj\htmlIndex\appliedLearning.html"> Applied Learning</a>
     <a href="C:\Users\rudya\github\1stProj\htmlIndex\contact.html">Contact Me</a>
   </header>
   <body>
-    <h3>Name</h3>
-      <input type="text" placeholder="First">
-      <input type="text" placeholder="Last">
-    <h3>Phone Number</h3>
-      <input type="text">
-    <h3>Email</h3>
-      <input type="text">
-    <h3>Additional information</h3>
-      <input type="text">
-
+    <!-- this is where the action="/submit-form_should_go" -->
+    <form class="" action="#" method="post">
+        <h3>Name</h3>
+          <input type="text" placeholder="First" required>
+          <input type="text" placeholder="Last" required>
+        <h3>Phone Number</h3>
+          <input type="number" required>
+        <h3>Email</h3>
+          <input type="text" required>
+        <h3>Reason for Contact</h3>
+          <label for="hire">
+            <input id="hire" type="radio" name="hire-networking-work" value="hiring">Hiring Opportunities
+          </label>
+          <label for="networking">
+            <input id="networking" type="radio" name="hire-networking-work" value="networking">Networking
+          </label>
+          <label for="work">
+            <input id="work" type="radio" name="hire-networking-work" value="work">Work Opportunities
+          </label>
+        <h3>Additional Information</h3>
+          <input type="text">
+        <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
