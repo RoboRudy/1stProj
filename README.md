@@ -39,7 +39,8 @@ Should be 5 pages
 
 5. Contact Page
     - LinkedIn
-    - Business Email
+    - github https://github.com/RoboRudy
+    - Business Email form
     - BUsiness line
 
 TEst TEst
