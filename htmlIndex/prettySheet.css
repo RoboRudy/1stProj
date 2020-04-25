@@ -9,15 +9,20 @@ h1 {
   font-family: 'Lobster', cursive;
   text-align: center;
   display: block;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0px 0px 0px;
 
+}
+
+div {
+
+  padding: 20px 10px 20px 10px;
+  margin: 30px 15px 30px 15px;
 }
 
 p {
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
-  text-align: left;
+  text-align: justify;
   display: inline-block;
 
 }
@@ -43,9 +48,9 @@ p {
 
 nav {
 
-  padding: 20px 100px 20px 100px;
+  padding: 0px 100px 20px 100px;
   text-align: center;
-  margin: 20px 100px 20px 100px;
+  margin: -15px 100px 20px 100px;
   font-size: 30px;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
