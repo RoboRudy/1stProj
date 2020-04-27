@@ -58,11 +58,17 @@ nav {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+  bottom: 20px;
+  
 
 
 }
 
 #navButton {
   padding: 30px 75px 30px 75px;
-  color: rgba(0, 0, 255, 0.5);
+  opacity: 0.8;
+}
+
+a:hover {
+  color: red;
 }
